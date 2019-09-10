@@ -10,6 +10,6 @@ I maintain and monitor a few different networks for clients and family. As I ins
 
 - `docker rename unifi unifi.old`
 
-- `docker run --init -p 8080:8080 -p 8443:8443 -p 3478:3478/udp -p 10001:10001/udp -e TZ='Europe/London' -v ~/luca/unifi:/unifi --name unifi jacobalberty/unifi:latest --restart unless-stopped`
+- `docker run --init -p 8080:8080 -p 8443:8443 -p 3478:3478/udp -p 10001:10001/udp -e TZ='Europe/London' -v ~/luca/unifi:/unifi --name unifi --restart unless-stopped jacobalberty/unifi:latest`
 
 - upload the backup config file to the new unifi container via the unifi web interface.
