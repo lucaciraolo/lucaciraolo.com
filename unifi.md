@@ -3,6 +3,7 @@
 I maintain and monitor a few different networks for clients and family. As I install Ubiquiti wireless access points, they can all be connected to a hosted Unifi server which means I can make changes and monitor them remotely. Of course, I found a docker container which makes setup easy. Here is the command to set up and run the container.
 
 ## Updating Unifi Version
+- log in as root
 
 - pull latest unifi image:
   `docker pull jacobalberty/unifi:latest`
